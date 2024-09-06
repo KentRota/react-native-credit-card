@@ -1,6 +1,6 @@
 {
   "name": "@kentrota/react-native-credit-card",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "React native credit card input component",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "dependencies": {
     "payment": "^2.4.7",
     "react-native-flip-card": "^3.5.7"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
