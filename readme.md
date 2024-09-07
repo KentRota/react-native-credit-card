@@ -23,17 +23,25 @@ This is a react native port of Card. There is a [react port of Card](https://git
 
 I got the design resources from the [Ramakrishna V's dribbble](https://dribbble.com/shots/2177105-Checkout-Flow-Card)
 
-![design](https://d13yacurqjgara.cloudfront.net/users/484057/screenshots/2177105/checkout_generic.gif)
+## Installation
 
+```
+yarn add @kentrota/react-native-credit-card
+```
 
-#### Usage
+or
+```
+npm install --save @kentrota/react-native-credit-card
+```
 
-- `npm install --save react-native-credit-card`
-- In your react native script add these lines
+Then, for React Native >= 0.60:
+```
+cd ios
+pod install
+```
 
 ```jsx
-import CreditCard from 'react-native-credit-card';
-
+import CreditCard from '@kentrota/react-native-credit-card';
 
 <CreditCard
     type={this.state.type}
@@ -77,15 +85,5 @@ import CreditCard from 'react-native-credit-card';
 -`expiryBeforeText`: Change the default text for MONTH/YEAR
 -`expiryAfterText`: Change the default text for VALID THRU
 
-#### Todo
-
-- Automated test
-- More credit card type variations
-
-#### Examples
-
-todo.
 
 Most of the credit goes to [@jessepollak](http://github.com/jessepollak) and [@JohnyDays](http://github.com/JohnyDays) for creating and mantaining [Card](http://github.com/jessepollak/card) and [React Credit Card](https://github.com/JohnyDays/react-credit-card), I just ported it over to React Native.
-
-

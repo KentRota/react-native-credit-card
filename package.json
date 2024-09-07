@@ -1,6 +1,6 @@
 {
   "name": "@kentrota/react-native-credit-card",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "React native credit card input component",
   "main": "index.js",
   "scripts": {
